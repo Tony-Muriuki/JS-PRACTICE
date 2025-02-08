@@ -26,22 +26,22 @@
 
 // console.log(myFirstJob);
 
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+// let javascriptIsFun = true;
+// console.log(javascriptIsFun);
 
 // TYPEOF Operator
-console.log(typeof true);
-console.log(typeof javascriptIsFun);
-console.log(typeof 23);
-console.log(typeof "Jonas");
-console.log(typeof null);
+// console.log(typeof true);
+// console.log(typeof javascriptIsFun);
+// console.log(typeof 23);
+// console.log(typeof "Jonas");
+// console.log(typeof null);
 
 // Dynamic Typing
-javascriptIsFun = "Yes";
-console.log(typeof javascriptIsFun);
+// javascriptIsFun = "Yes";
+// console.log(typeof javascriptIsFun);
 
 // Undefined
-let year;
-console.log(year);
-console.log(typeof year);
-year = 1991;
+// let year;
+// console.log(year);
+// console.log(typeof year);
+// year = 1991;

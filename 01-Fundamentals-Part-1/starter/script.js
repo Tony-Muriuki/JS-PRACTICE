@@ -86,22 +86,22 @@
 
 // STRING AND TEMPLATE LITERALS.
 
-const firstName = "Jonas";
-const job = "Teacher";
-const birthYear = 1991;
-const year = 2037;
+// const firstName = "Jonas";
+// const job = "Teacher";
+// const birthYear = 1991;
+// const year = 2037;
 
-const jonas =
-  "I'm" + " " + firstName + ",a" + " " + (year - birthYear) + "years old" + " ";
-job + "!";
-console.log(jonas);
+// const jonas =
+//   "I'm" + " " + firstName + ",a" + " " + (year - birthYear) + "years old" + " ";
+// job + "!";
+// console.log(jonas);
 
-const jonasNew = `I'm ${firstName} a ${year - birthYear} years old ${job}!`; //Use of template literals
+// const jonasNew = `I'm ${firstName} a ${year - birthYear} years old ${job}!`; //Use of template literals
 
-console.log(`String with \n\
-  multiple \n\
-  lines`);
+// console.log(`String with \n\
+//   multiple \n\
+//   lines`);
 
-console.log(`
-    multiple
-    lines`);
+// console.log(`
+//     multiple
+//     lines`);

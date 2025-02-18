@@ -83,3 +83,17 @@
 //   return juice;
 // }
 // console.log(fruitProcessor(2, 3));
+
+/***************************************INTRODUCTION TO ARRAYS*************************************** */
+// const friends = ["Michael", "Steven", "Peter"];
+// console.log(friends);
+
+// const years = new Array(1991, 1964, 2008, 2020);
+// console.log(friends[0]);
+// console.log(friends[2]);
+
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]); //Gets the last element in The Array.
+
+//An array is a linear data structure used to store multiple values in a single variable.
+//An array inside an array is called a multidimensional array const random=["tony",[1,2]]

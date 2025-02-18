@@ -56,3 +56,16 @@ console.log(appleJuice);
 //   return 2037 - birtYear;
 // };
 // console.log(calcAge2(2003), "Years");
+
+/***************************ARROW FUNCTIONS*************************** */
+// An arrow function is a simple and concise way of writing function expressions.
+// const calcAge3 = (birthYear) => 2037 - birthYear;
+// const age3 = calcAge3(2003);
+// console.log(age3);
+
+// const yearsUntilRetirement = (birthYear) => {
+//   const age = 2037 - birthYear;
+//   const retirement = 65 - age;
+//   return retirement;
+// };
+// console.log(yearsUntilRetirement(1991));

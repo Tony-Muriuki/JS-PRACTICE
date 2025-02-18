@@ -15,21 +15,21 @@
 
 // Function:Section or Piece of a reusable block of code,Declare once and can be reused multiple times.
 
-function logger() {
-  console.log("My name is Tony");
-}
-logger(); //Invoking/Calling/Running or Executing The function
+// function logger() {
+//   console.log("My name is Tony");
+// }
+// logger(); //Invoking/Calling/Running or Executing The function
 
 //Function Example
 
-function fruitProcessor(apples, oranges) {
-  const juice = `Juice with ${apples} apples and ${oranges} oranges`;
-  return juice;
-}
-const appleJuice = fruitProcessor(5, 0);
-const appleOrangeJuice = fruitProcessor(2, 4);
-console.log(appleOrangeJuice); //Re used the function
-console.log(appleJuice);
+// function fruitProcessor(apples, oranges) {
+//   const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+//   return juice;
+// }
+// const appleJuice = fruitProcessor(5, 0);
+// const appleOrangeJuice = fruitProcessor(2, 4);
+// console.log(appleOrangeJuice); //Re used the function
+// console.log(appleJuice);
 
 //Func helps keep our code DRY(DONT REPEAT YOURSELF)
 
@@ -69,3 +69,17 @@ console.log(appleJuice);
 //   return retirement;
 // };
 // console.log(yearsUntilRetirement(1991));
+
+/**********************FUNCTIONS CALLING OTHER FUNCTIONS******************************* */
+
+// function cutFruitPieces(fruit) {
+//   return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//   const applePieces = cutFruitPieces(apples);
+//   const orangePieces = cutFruitPieces(oranges);
+//   const juice = `Juice with ${applePieces} apples and ${orangePieces} oranges`;
+//   return juice;
+// }
+// console.log(fruitProcessor(2, 3));

@@ -104,3 +104,7 @@
 
 const shopping = ["Bread", "Cheese", "Milk", "Eggs"];
 console.log(shopping.length);
+
+//Push Method
+const newLength = shopping.push("Nutella");
+console.log(newLength, "length");

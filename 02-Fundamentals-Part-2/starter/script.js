@@ -97,3 +97,10 @@
 
 //An array is a linear data structure used to store multiple values in a single variable.
 //An array inside an array is called a multidimensional array const random=["tony",[1,2]]
+
+/*****************************************BASIC ARRAY OPERATIONS***************** */
+
+//Check Length
+
+const shopping = ["Bread", "Cheese", "Milk", "Eggs"];
+console.log(shopping.length);

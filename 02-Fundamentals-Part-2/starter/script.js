@@ -100,11 +100,21 @@
 
 /*****************************************BASIC ARRAY OPERATIONS***************** */
 
-//Check Length
+// //Check Length
 
-const shopping = ["Bread", "Cheese", "Milk", "Eggs"];
-console.log(shopping.length);
+// const shopping = ["Bread", "Cheese", "Milk", "Eggs"];
+// console.log(shopping.length);
 
-//Push Method
-const newLength = shopping.push("Nutella");
-console.log(newLength, "length");
+// //Push Method
+// const newLength = shopping.push("Nutella");
+// console.log(newLength, "length");
+
+/*****************************************************JAVASCRIPT OBJECTS********************************* */
+//An object is a collection of key value pairs,where the keys are strings and the values may comprise of any data types.
+// const jonas = {
+//   firstName: "Jonas",
+//   lastName: "Schedmattman",
+//   age: 2037 - 1991,
+//   job: "Teacher",
+//   friends:["Michael","Peter","Steven"]
+// };
